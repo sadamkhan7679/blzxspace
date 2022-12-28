@@ -1,0 +1,41 @@
+#about-heading{
+    text-align: center;
+    margin-top:10px;
+font-size:30px;
+}
+
+.about-area{
+display: flex;
+width: 100%;
+height: 100vh;}
+
+.textArea{
+    width: 48%;
+    height: 100%;
+    margin:1%;
+    
+}
+
+.imgArea{
+    width: 48%;
+    height: 100%;
+    margin:1%;
+   
+}
+
+@media only screen and (max-width:760px){
+    .about-area{
+        height: max-content;
+    display: block;
+    }
+
+    .imgArea{
+        width: 96%;
+        margin: 2%;
+    }
+
+    .textArea{
+        width: 96%;
+        margin: 2%;
+    }
+}

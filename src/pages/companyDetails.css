@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+#backbutton {
+  position: fixed;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 50px;
+
+  /* width: 60px; */
+  cursor: pointer;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+
+#backbutton svg {
+  height: 30px;
+  width: 30px;
+}
+.companydetails {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  /* display:flex;
+  align-items: center; */
+
+  /* justify-content:center; */
+}
+
+.details-header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+.editable {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 30vh;
+  width: 33.3%;
+  flex-grow: 1;
+  border: 2px solid black;
+  min-width: 300px;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  background-color: white;
+  box-shadow: 5px 5px 12px #888;
+}
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.editBtns {
+  display: flex;
+}
+
+.editBtns button > svg {
+  pointer-events: none;
+}
+
+.editBtns button {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h4 {
+  margin: 0;
+  padding: 0 10px;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  height: 16%;
+  font-family: Montserrat;
+  justify-content: space-between;
+}
+
+.box > div {
+  height: 84%;
+  font-family: "Times New Roman";
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.box > div:focus {
+  outline: none;
+}

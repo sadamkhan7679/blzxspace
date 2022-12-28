@@ -1,0 +1,97 @@
+.input {
+  width: 100%;
+}
+
+.input input {
+  border: 1px solid black;
+  height: 36px;
+  width: 80%;
+  min-width: 280px;
+  margin-right: 5px;
+  transition: 0.3s ease-in all;
+  padding: 0 10px;
+}
+.searchbar {
+  width: 50%;
+  margin: 20px;
+}
+
+.input input:focus {
+  outline: none;
+  /* border-bottom:2px solid black; */
+}
+.lists {
+  margin: 10px;
+  padding: 5px;
+}
+
+.input button {
+  height: 36px;
+  width: 80px;
+  border: 2px black solid;
+  padding: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-border-box;
+}
+
+.search__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.search__navbar > h1 {
+  font-size: 25px;
+}
+
+.search__navbar > ul {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.search__navbar > ul > li {
+  font-weight: 600;
+}
+
+.search__navbarInput {
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  width: 300px;
+}
+
+.input-group-btn {
+  display: none;
+}
+
+.search__searchbar {
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+.pagination {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pagination > button {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.pagination > h2 {
+  font-size: 20px;
+  padding: 0 10px;
+}
